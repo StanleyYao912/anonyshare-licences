@@ -1,4 +1,5 @@
 {
-  "_comment": "AnonyShare licence authority. Each clone's LICENSE_ID is checked against 'revoked' every ~5 min. To PAUSE a clone: add its id to 'revoked' and commit. To RESTORE: remove it. An empty list = everyone active. This file holds no secrets.",
-  "revoked": []
+  "_comment": "AnonyShare licence authority. Each clone's LICENSE_ID is checked every ~5 min. To PAUSE a clone: add its id to 'revoked'. To RESTORE: remove it. To TERMINATE: add its id to 'terminated'. Empty lists = everyone active. This file holds no secrets.",
+  "revoked": [],
+  "terminated": []
 }
